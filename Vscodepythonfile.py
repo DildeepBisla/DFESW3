@@ -59,7 +59,7 @@
 
 # print ( "My name is " + name + " I am " + age + " years old")
 # print ( "Statement: ", name, "my gender is male. ", male)
-# print ( "Statement: ", name, "my gender is female. ", female)
+# print ( "Statement: ", name,  "my gender is female. ", female)
 
 #\
 
