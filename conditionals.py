@@ -59,11 +59,18 @@
 
 #\
 
-my_fruit = ["Apple", "Banana", "Orange", "Pear", "Grape", "Berry"]
+for numVar in  range(0, 100, 7):
+    print(numVar)
 
-for fruit in my_fruit:
-    # add if statements here (optional)
-    print(fruit.upper())
+#\ ^ used in a 7 times table format
+
+#\
+
+# my_fruit = ["Apple", "Banana", "Orange", "Pear", "Grape", "Berry"]
+
+# for fruit in my_fruit:
+#     # add if statements here (optional)
+#     print(fruit.upper())
 
 
 # WHILE LOOPS
