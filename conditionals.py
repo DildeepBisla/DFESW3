@@ -72,7 +72,7 @@
 # for numVar in  range(0, 100, 7):
 #     print(numVar)
 
-#\ ^ used in a 7 times table format
+# \ ^ used in a 7 times table format
 
 
 
@@ -153,13 +153,16 @@
 
 
 # while True:
-#     name = str(input('Entername: '))
+#     name = str(input('Entername Here: '))
 #     print(name + " " + "is awesome!")
+#      break
     
+
 #
 #\
 #
 
+#JORDANS EXAMPLE
 
 # names = 0
 
@@ -172,5 +175,65 @@
 #     names = names + 1
 
 
+#AMELIA
 
+# userString = input("Please type a word here. ")
+# reverseString = userString[::-1] #this reverses the order of a word
+# if reverseString == userString:
+#     print("This is a palindrome! Conrats!")
+# else:
+#     print("This word is not a palindrome.")
+
+#    
+
+# userinput = str(input('Enter Input: '))
+# inputlength = len(userinput) 
+# #print(inputlength)
+
+# reversestring = userinput[::-1]
+# #print(reversestring)
+
+# if userinput == reversestring:
+#     print("this is a palindrome")
+# else:
+#     print("this is not palindrome ") 
+
+#\
+# 
+# 
+#     
+
+#Paul Randalls#
+
+# string = input("Provide potential palindrome: ").lower()
+
+# revstring = ""
+
+# for i in range (len(string)):
+
+#     revstring = revstring + string[-1-i]
+
+# if revstring == string:
+
+#     print("Palindrome provided")
+
+# else:
+
+#     print("Not a palindrome")
+
+#Leon#
+
+# palinVar = input('TYPE IN: ')
+# numChars = len(palinVar) - 1
+# raVnilap = ''
+# while numChars >= 0:
+#     raVnilap = raVnilap  + palinVar[numChars]
+#     numChars = numChars - 1
+# if raVnilap == palinVar:
+#     print('PALINDROME')
+# else:
+#     print('no')
+
+
+########
 
