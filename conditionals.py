@@ -151,11 +151,20 @@
 #
 #
 
+from typing import Sequence
 
-# while True:
-#     name = str(input('Entername Here: '))
-#     print(name + " " + "is awesome!")
-#     break
+
+name = str(input("Enter Name: "))
+count = 5
+while count <= 5:
+    print(name + " " + "is awesome!")
+    name = str(input("Enter Name: ")) -1 
+    quit()
+
+print("End sequence")
+
+
+    
     
 
 #
@@ -221,6 +230,11 @@
 
 #     print("Not a palindrome")
 
+
+
+###
+###
+###
 #Leon#
 
 # palinVar = input('TYPE IN: ')
