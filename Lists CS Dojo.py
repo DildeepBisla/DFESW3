@@ -14,19 +14,44 @@
 # a [0]
 # print(a[0])     # prints number 3 and so on
 
-b = ["banana", "apple", "microsoft"]
+# txt = "hello world"       #index of the charaters in the string
+# x = txt[0]
+# print(x)
 
-i = b.index("banana")
-print(i)           # so banana is at index 0
+# x = txt[2:5]                #to set range from:to characters
+# print(x)
 
-i = b.index("microsoft")
-print(i)           # so microsoft is at index 2
+##########
+##########
+##########
 
-i = b.count("banana")
-print(i)           # need to specify the item that is required for "count()" in the ()
+# b = ["banana", "apple", "microsoft"]
 
-print(len("apple")) # prints the length of the string/int
-print(len(b))       # prints the length of the string/int
+#### using index keyword
 
-print(list(b))      #shows the items in the list or array
+# i = b.index("banana")
+# # b[0] = "orange"      <---- we assigned b list and selected index positon and changed to orange 
+# print(i)                  # so banana is at index 0
+
+# i = b.index("microsoft")
+# print(i)                  # so microsoft is at index 2
+
+#### using count keyword
+
+# i = b.count("banana")
+# print(i)           # need to specify the item that is required for "count()" in the ()
+
+##### using len keyword
+
+# print(len("apple"))       # prints the length of the string/int
+# print(len(b))             # prints the length of the string/int/list
+
+##### using list keyword 
+
+# print(list(b))      #shows the items in the list or array
+
+# = list(stringvariable) <---- to convert string into list
+
+
+
 
