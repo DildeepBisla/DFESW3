@@ -16,16 +16,18 @@
 
 class Student:
 
-    def __init__(self, name, age):
+    def __init__(self, name, age, class_ = "student"):
             self.name = name
             self.age = age
-            self.class_ = "student"
+            self.class_ = class_
 
 
     def test_scores(self, res1, res2, res3):
         return (res1 + res2 + res3) / 3
 
-dillon = Student("dill", 33)
+student1 = Student("dill", 33)
+
 
 result_dill = dillon.test_scores(25,33,47)
 print(result_dill)
+
