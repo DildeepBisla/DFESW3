@@ -1,4 +1,5 @@
 
+# price = {"Burger" : 5.50}           #solution create dictionary with price variable and item list.
 
 # user_funds = 10.31
 # item_price = price["Burger"]
@@ -14,9 +15,11 @@
 
 ####
 
+
+
 # def product(n):
-#     total = 1
-#     for i in n:
+#     total = 1           #syntax error only one = sign
+#     for i in n:         # i means iteration in n (n is the product list which the contents in used in [ enter ])
 #         total *= i
 #     return total
 
@@ -37,13 +40,20 @@
 
 #####
 
+
+
 # import pdb
 
 # pdb.set_trace()
 
+
+
+#####
+
+
+
 # item_list = ["Burger", "Hotdog", "Bun", "Ketchup", "Cheese"]
 # n = 0
-
 # while n < 5:
 #     for i in item_list:
 #         print(item_list[i])
