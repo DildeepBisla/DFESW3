@@ -25,26 +25,7 @@ class Student:
     def test_scores(self, res1, res2, res3):
         return (res1 + res2 + res3) / 3
 
-res1 = 32
-res2 = 25
-res3 = 55
+dillon = Student("dill", 33)
 
-print()
-
-
-
-
-
-
-# name = (input("Student Name: "))
-# age = (input("Student age: "))
-# class_year = (input("Student Class Year: "))
-
-
-# Res1 = int(input("Enter Res1: "))
-# Res2 = int(input("Enter Res2: "))
-# Res3 = int(input("Enter Res3: "))
-
-# dillon = Student("Dillon", 33, "QA Y1")
-
-# print(dillon)
+result_dill = dillon.test_scores(25,33,47)
+print(result_dill)
