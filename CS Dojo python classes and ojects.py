@@ -22,27 +22,27 @@
 #####
 
 
-class Robot:
+# class Robot:
 
-    def __init__(self, name, color , weight):
-        self.name = name
-        self.color = color
-        self.weight = weight
+#     def __init__(self, name, color , weight):
+#         self.name = name
+#         self.color = color
+#         self.weight = weight
     
-    def introduce_self(self):
-        print("My name is " + self.name)
+#     def introduce_self(self):
+#         print("My name is " + self.name)
 
-    def display_all(self):
-        print (self.name, self.color, self.weight)    
+#     def display_all(self):
+#         print (self.name, self.color, self.weight)    
 
 
-r1 = Robot("Tom", "Red", 30)
-r2 = Robot("Jerry", "Blue", 20)
+# r1 = Robot("Tom", "Red", 30)
+# r2 = Robot("Jerry", "Blue", 20)
 
-r1.introduce_self()
-r2.introduce_self()
+# r1.introduce_self()
+# r2.introduce_self()
 
-r1.display_all()
+# r1.display_all()
 
 
 
