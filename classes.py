@@ -14,20 +14,36 @@
 ####
 
 
-class Student:
+# class Student:
 
-    def __init__(self, name, age, class_ = "student"):
-            self.name = name
-            self.age = age
-            self.class_ = class_
-
-
-    def test_scores(self, res1, res2, res3):
-        return (res1 + res2 + res3) / 3
-
-student1 = Student("dill", 33)
+#     def __init__(self, name, age, class_ = "student"):
+#             self.name = name
+#             self.age = age
+#             self.class_ = class_
 
 
-result_dill = dillon.test_scores(25,33,47)
-print(result_dill)
+#     def test_scores(self, res1, res2, res3):
+#         avgscore = (res1 + res2 + res3) / 3
+#         print(int(avgscore))
+
+
+# student1 = Student("dill", 33)
+
+# student1.test_scores(25,33,47)
+
+
+#####
+
+
+# class vowel_checker:
+#     vowels = "a" "e" "i" "o" "u"
+
+# string = str(input("Enter Letter: "))
+
+# def checkingmethod():
+#     count = 0
+#     if string == 'aeiou':
+#         print("true")
+#     else:
+#         print("false")
 
