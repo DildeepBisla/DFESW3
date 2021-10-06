@@ -20,7 +20,7 @@
 # def product(n):
 #     total = 1           #syntax error only one = sign
 #     for i in n:         # i means iteration in n (n is the product list which the contents in used in [ enter ])
-#         total *= i
+#         total *= i      # i can be used as any letter for reperesntation of the iteration
 #     return total
 
 # print(product([4,4,5]))
