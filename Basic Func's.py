@@ -1,12 +1,13 @@
 
-numb_list = [1,2,3,4,5,6,7,8,9,10]
+#######             RANGE               ##########
 
-x = range(5)
-for x in numb_list:
-    print(x)
+# numb_list = [1,2,3,4,5,6,7,8,9,10]
+
+# x = numb_list[3:7]
+# print(x)
 
           # in this method x variable is going represent the range in the numb_list
-          # and pull the numbers till it gets to 9 while (-1) going down 1 
+          # and pull the numbers from index 3 to 7 
 
 # x = range(6)        #<---- range is to 6 (no list used just range is auto generated) 
 # for n in x:         #<---- n is just letter assinged to the iteration in the range 

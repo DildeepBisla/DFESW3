@@ -1,35 +1,35 @@
 
-# def greet():
-#     name = input("What is your name? ")
+def greet():
+    name = input("What is your name? ")
     
-#     print(f"Hello {name}")
+    print(f"Hello {name}")
 
-# greet()
-
-#####
-
-# def greet(name):
-#     return f"Hello {name}"
-
-# name = input("What is your name? ")
-# print(greet(name))
+greet()
 
 #####
 
-# def greet(name, greeting="Hello"):
-#     return f"{greeting} {name}"
+def greet(name):
+    return f"Hello {name}"
 
-# print(greet("Steve"))  # Prints "Hello Steve"
-# print(greet("Bill", "Hola"))  # Prints "Hola Bill"
+name = input("What is your name? ")
+print(greet(name))
 
 #####
 
-# def add_calc(number1, number2):
-#     answer = number1 + number2
-#     return answer
+def greet(name, greeting="Hello"):
+    return f"{greeting} {name}"
 
-# added_number = add_calc(5,5)
-# print(added_number + 20)
+print(greet("Steve"))  # Prints "Hello Steve"
+print(greet("Bill", "Hola"))  # Prints "Hola Bill"
+
+#####
+
+def add_calc(number1, number2):
+    answer = number1 + number2
+    return answer
+
+added_number = add_calc(5,5)
+print(added_number + 20)
 
 #####
 
