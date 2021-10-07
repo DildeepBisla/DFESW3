@@ -36,13 +36,13 @@ class Robot:
         print (self.name, self.color, self.weight)    
 
 
-# r1 = Robot("Tom", "Red", 30)
-# r2 = Robot("Jerry", "Blue", 20)
+r1 = Robot("Tom", "Red", 30)
+r2 = Robot("Jerry", "Blue", 20)
 
-# r1.introduce_self()
-# r2.introduce_self()
+r1.introduce_self()
+r2.introduce_self()
 
-# r1.display_all()
+r1.display_all()
 
 
 
