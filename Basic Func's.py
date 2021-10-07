@@ -35,4 +35,10 @@
 
 
 
-#######
+#######>>>>>>>>>>>>>>>>   using len keyword     <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+# b = ["banana", "apple", "microsoft"] 
+
+# print(len("apple"))       # prints the length of the string/int
+# print(len(b))             # prints the length of the string/int/list
+

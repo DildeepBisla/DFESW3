@@ -14,11 +14,18 @@
 # a [0]
 # print(a[0])     # prints number 3 and so on
 
-# txt = "hello world"       #index of the charaters in the string
+
+#   index of the charaters in the string
+
+
+# txt = "hello world"       
 # x = txt[0]
 # print(x)
 
-# x = txt[2:5]                #to set range from:to characters
+
+#   to set range from:to characters
+
+# x = txt[2:5]                
 # print(x)
 
 # reverse() list 
