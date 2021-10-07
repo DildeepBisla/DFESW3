@@ -16,3 +16,23 @@
 #         # so x is the varibale, its going to have a range of auto populated iteration 
 #         # to 6.  n is going to pull the iteration in x till it hit 6 iteration.  
 
+
+#######    Strings - REVERSE    #########
+
+
+# txt = "Hello World"[::-1]      #<----- ::-1 will reverse the string
+# print(txt) 
+
+
+######     String - REVERSE as a FUNCTION #######
+
+# def my_function(x):
+#   return x[::-1]
+
+# mytxt = my_function("I wonder how this text looks like backwards")
+
+# print(mytxt) 
+
+
+
+#######

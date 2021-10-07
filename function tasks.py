@@ -19,5 +19,29 @@
 # max_of_three(10, 30, 20)
 
 
-# task 2
+#######>>>>>>>>>>>>>>> task 4  REVERSE A STRING ########>>>>>>>>>>>>>>>
+
+# def reverse_string(x):
+#   return x[::-1]
+
+# mytxt = reverse_string("1234abcd")
+
+# print(mytxt) 
+
+
+############>>>>>>>>>>          task  5 RANGE CHECKER <<<<<<<<
+
+# def range_checker(i):
+
+#     if i in range(10):
+#         print(True)
+#     else:
+#         print(False)
+
+
+# range_checker(11) 
+
+
+#############>>>>>>>>>>>>>>>>>>>   task     <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 
