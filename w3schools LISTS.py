@@ -1,8 +1,8 @@
-### 1. Write a Python program to sum all the items in a list. ###
+## 1. Write a Python program to sum all the items in a list. ###
 
-# w3schools_list = ["Item1", "Item2", "Item3", "Item4", "Item5"]
+w3schools_list = ["Item1", "Item2", "Item3", "Item4", "Item5"]
 
-# print(list(w3schools_list))
+print(list(w3schools_list))
 
 #######                         if statements with LISTS                    #########
 

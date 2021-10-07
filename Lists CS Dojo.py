@@ -21,6 +21,12 @@
 # x = txt[2:5]                #to set range from:to characters
 # print(x)
 
+# reverse() list 
+# fruits = ["apple", "banana", "cherry"]
+# fruits.reverse()
+
+# print(fruits)
+
 ##########
 ##########
 ##########
