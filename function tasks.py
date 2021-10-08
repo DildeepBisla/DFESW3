@@ -42,6 +42,27 @@
 # range_checker(11) 
 
 
-#############>>>>>>>>>>>>>>>>>>>   task     <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+###>>>>>>>>>>>>>>>>>>>   task CREAT A ADD and SUB CALC   <<<<<<<<<<<<<<<<<<
+
+# def calculator(a, b):
+
+#     c = a + b
+#     d = a - b
+#     print (c , d)
+
+# calculator(40, 10)
+
+###### <<<<<<<<<<<<<<<<<<<<< task SALARY SHOW as default >>>>>>>>>>>>>>
+
+# def show_employee(name, salary=9000):
+#      print("Name: ", name, "Salary: ", salary)
+
+# show_employee('Ben', 12000)
+# show_employee('Jessa')
+
+######  <<<<<<<<<<<<<<<     task        >>>>>>>>>>>>>
+
+
+        
 
 

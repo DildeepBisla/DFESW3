@@ -42,3 +42,7 @@
 # print(len("apple"))       # prints the length of the string/int
 # print(len(b))             # prints the length of the string/int/list
 
+# b = "apple"
+
+# print(len(b))
+
