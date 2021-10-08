@@ -1,5 +1,5 @@
 
-###### Classes NOBEL ######
+##### Classes NOBEL ######
 
 # __str__ function can be used to return a string representation for the class when 
 # needed.
@@ -17,3 +17,5 @@ class Nobel:
 
 np2005=Nobel("Peace", 2005, "Muhammad Yunus")
 print(np2005)
+
+        
