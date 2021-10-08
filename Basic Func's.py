@@ -13,25 +13,55 @@
 # for n in x:         #<---- n is just letter assinged to the iteration in the range 
 #   print(n) 
 
-#         # so x is the varibale, its going to have a range of auto populated iteration 
-#         # to 6.  n is going to pull the iteration in x till it hit 6 iteration.  
+#      # so x is the varibale, its going to have a range of auto populated iteration 
+#      # to 6.  n is going to pull the iteration in x till it hits 6 iteration.  
+
+
+
+
+
+
+
+
+
+
+
 
 
 #######    Strings - REVERSE    #########
 
 
-# txt = "Hello World"[::-1]      #<----- ::-1 will reverse the string
+# txt = "Hello World"[::-1]      #<----- ::-1 will reverse the string (slicing)
 # print(txt) 
 
 
 ######     String - REVERSE as a FUNCTION #######
 
-# def my_function(x):
+# def str_reverse_func(x):
 #   return x[::-1]
 
-# mytxt = my_function("I wonder how this text looks like backwards")
+##>>>>>><<<<<<<<
+
+# mytxt = str_reverse_func ("I wonder how this text looks like backwards")
 
 # print(mytxt) 
+
+
+
+###>>>>>>>>> list reverse as a FUNCTION >>>>>>>>>>>>>
+
+# lst=[100,200,300,400,500]
+
+# def f_1(list):
+#     return list.reverse()             
+
+ 
+ 
+# # .reverse() will reverse the variable/list/(thing) that its assinged to.
+
+
+
+
 
 
 
@@ -45,4 +75,31 @@
 # b = "apple"
 
 # print(len(b))
+
+
+
+
+
+
+
+#>>>>>>>>>>>>>>>>>>>>>>>>      Returning Default value    <<<<<<<<<<<<<<<<<<<<<<<<
+
+
+# def defualt_val_func(x):
+#     return 100
+
+# # the return method always give the output of the return value.
+
+# print(defualt_val_func (120))
+
+####>>>>>>>>>>>>>>>>>>>     integer Value Return Func >>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+# def int_val_func(x : int):
+#     return x 
+
+# x = 120   
+
+# print(int_val_func(x))
+
+
 
