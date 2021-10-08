@@ -65,3 +65,11 @@ print(pazzas_res)
 #   km = convert(miles)
 #   km = 1.6 * miles
 
+def km_to_miles_converter(miles):
+    return 1.6 * miles
+
+
+km = km_to_miles_converter(30)
+print (km)
+
+
